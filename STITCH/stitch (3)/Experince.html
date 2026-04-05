@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Experience | MAISON PEREEN</title>
+<link rel="icon" type="image/x-icon" href="../liquor-shot-glass.webp" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#93000a",
+                    "surface-tint": "#ffb3ad",
+                    "error": "#ffb4ab",
+                    "on-background": "#e5e2e1",
+                    "on-surface-variant": "#dac1bf",
+                    "surface-container-lowest": "#0e0e0e",
+                    "inverse-surface": "#e5e2e1",
+                    "primary": "#ffb3ad",
+                    "on-tertiary": "#31302e",
+                    "secondary-fixed-dim": "#e9c349",
+                    "on-secondary-fixed-variant": "#574500",
+                    "on-surface": "#e5e2e1",
+                    "surface-container": "#20201f",
+                    "secondary-fixed": "#ffe088",
+                    "on-primary-fixed-variant": "#77302d",
+                    "surface-variant": "#353535",
+                    "on-primary": "#5a1a19",
+                    "on-secondary": "#3c2f00",
+                    "secondary-container": "#af8d11",
+                    "on-tertiary-fixed-variant": "#484744",
+                    "primary-container": "#4a0e0e",
+                    "surface": "#131313",
+                    "on-secondary-container": "#342800",
+                    "surface-container-high": "#2a2a2a",
+                    "primary-fixed-dim": "#ffb3ad",
+                    "on-error": "#690005",
+                    "surface-bright": "#393939",
+                    "outline-variant": "#544341",
+                    "tertiary-fixed-dim": "#c9c6c2",
+                    "tertiary-container": "#252422",
+                    "surface-container-low": "#1c1b1b",
+                    "background": "#131313",
+                    "on-primary-container": "#cc726d",
+                    "surface-container-highest": "#353535",
+                    "inverse-on-surface": "#313030",
+                    "primary-fixed": "#ffdad7",
+                    "on-secondary-fixed": "#241a00",
+                    "on-primary-fixed": "#3d0506",
+                    "on-tertiary-container": "#8d8b88",
+                    "inverse-primary": "#954742",
+                    "tertiary-fixed": "#e6e2de",
+                    "tertiary": "#c9c6c2",
+                    "on-error-container": "#ffdad6",
+                    "on-tertiary-fixed": "#1c1c19",
+                    "surface-dim": "#131313",
+                    "secondary": "#e9c349",
+                    "outline": "#a28c8a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .masonry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-auto-rows: 200px;
+            gap: 1.5rem;
+        }
+        .masonry-tall { grid-row: span 3; }
+        .masonry-wide { grid-column: span 2; }
+        .masonry-standard { grid-row: span 2; }
+        
+        @media (max-width: 768px) {
+            .masonry-wide { grid-column: span 1; }
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary/30">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-transparent backdrop-blur-xl dark:bg-surface/80">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-headline tracking-widest text-secondary dark:text-secondary-light">MAISON PEREEN</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-on-surface hover:text-secondary-dim transition-colors text-[0.75rem] font-label tracking-widest uppercase" href="../index.html">Home</a>
+<a class="text-on-surface hover:text-secondary-dim transition-colors text-[0.75rem] font-label tracking-widest uppercase" href="../stitch/About.html">About</a>
+<a class="text-on-surface hover:text-secondary-dim transition-colors text-[0.75rem] font-label tracking-widest uppercase" href="../stitch (2)/Collection.html">Collection</a>
+<a class="text-secondary border-b border-secondary pb-1 text-[0.75rem] font-label tracking-widest uppercase" href="./Experince.html">Experience</a>
+<a class="text-on-surface hover:text-secondary-dim transition-colors text-[0.75rem] font-label tracking-widest uppercase" href="../stitch (4)/Contact.html">Contact</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="hidden md:block bg-primary-container text-on-primary-container px-6 py-2 text-[0.75rem] font-label tracking-widest uppercase transition-all duration-300 hover:scale-105 active:scale-95">Book Tasting</button>
+<button class="text-primary dark:text-primary-light">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section with Parallax Intent -->
+<header class="relative h-[870px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Vineyard at sunset" class="w-full h-full object-cover scale-110" data-alt="Cinematic wide shot of a rolling vineyard in Bordeaux at golden hour, deep purple grapes in focus, warm sunlight casting long shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCu2GdI7fBRAFZmKrwB9heTCNyIIJ2fLrWOyudI6UZ-ZywhqiDwWVL-t55y7fXx3nBaqOPlL3JTtZQnAVnIH1r65WnT1QiL-QEhB-XJLiiT71N86vwUfZsl2vt0AEGq9vUyH-sw6LqKkyK9WxSlBAoYKR8vxZoQ8nNSiyAlaMOFwgfNFNOR_04fuVeQowmh05nH2wyWo-jSmxHsLrKweaQ8EEc9H8yB6D6oG6zJygKtSc2kQrNzRamnuKSrqzExVIfqJKUFlxQn-8"/>
+<div class="absolute inset-0 bg-gradient-to-b from-surface/40 via-surface/60 to-surface"></div>
+</div>
+<div class="relative z-10 text-center px-6 max-w-4xl">
+<span class="font-label text-[0.75rem] tracking-[0.3em] uppercase text-secondary mb-4 block">The Art of Living</span>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl text-on-surface mb-8 leading-tight">Beyond the <span class="italic text-primary">Glass</span></h1>
+<p class="text-lg md:text-xl text-on-surface-variant font-light max-w-2xl mx-auto leading-relaxed">
+                Step into the heritage of Maison Pereen. From the sun-drenched soil to the candlelit cellar, every moment is crafted with century-old precision.
+            </p>
+</div>
+</header>
+<!-- The Masonry Gallery -->
+<section class="px-8 md:px-16 py-24 bg-surface">
+<div class="mb-16 flex flex-col md:flex-row justify-between items-end gap-6">
+<div>
+<h2 class="font-headline text-4xl text-on-surface mb-4">Vineyard Life</h2>
+<p class="text-on-surface-variant max-w-md">An archival look at our daily rituals, the changing seasons, and the soul of the estate.</p>
+</div>
+<div class="flex gap-4">
+<button class="text-secondary font-label text-[0.75rem] tracking-widest uppercase border border-secondary/20 px-4 py-2 hover:bg-secondary/10 transition-all">Filter: Harvest</button>
+<button class="text-on-surface-variant font-label text-[0.75rem] tracking-widest uppercase border border-outline-variant/20 px-4 py-2 hover:bg-surface-variant transition-all">View All</button>
+</div>
+</div>
+<div class="masonry-grid">
+<!-- Item 1: Tall -->
+<div class="masonry-tall relative group overflow-hidden bg-surface-container-low cursor-pointer">
+<img alt="Wine cellars" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Low light dramatic shot of old oak barrels in a dark limestone cellar, soft golden candlelight reflecting on damp floors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuACOPy7EWCUrHwYVVs0gfsE5tUYwqK9FVgVRN5nEhAsOo3aY6M071VoNXxtFwAdlLUkatqF6_sM0b9x1Jg1uzOLByIV4hQg1SWfZSKIs053G0cSSJ4zcm70rCsSFw-gjQsWj_4dN_F_rITlTrRHaXgzdLSEiGBxYyN7MmQr_-H-rajb7QYZEK50FviLXul56bLSazn9gmUUfaHEfM3D289Yk1GIKGGTcFAVXF9K_Xpjmvd2qkJCe2SjT6KqY7uYPpHPbLXtx6S3zX0"/>
+<div class="absolute inset-0 bg-primary-container/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+<span class="font-label text-[0.65rem] text-secondary tracking-widest uppercase">Est. 1892</span>
+<h3 class="font-headline text-xl text-white">The Grand Cellar</h3>
+</div>
+</div>
+<!-- Item 2: Wide -->
+<div class="masonry-wide masonry-standard relative group overflow-hidden bg-surface-container-low cursor-pointer">
+<img alt="Vineyard morning" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Panoramic view of early morning fog rolling over vineyard rows, misty ethereal atmosphere with soft blue and silver light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdOLjzRGM02_W0a2JSPqxOb7CxLzrngV6WeR84wByAsAu3p2pjWm_QngF9BnHmgTtsz3U97mArE_i4OIbaVxwILvWIzVWpsnPZfjr0_qOPPhz2Ia9erSiLIMgv_S4Gv8pckf6gllUdb1fcQ9Y5o_5vhYzQ1T15ygKKG4TKLP4d2nVfk01JQZ-TdXiZoHZKvz6w6ipCq-PjEkRNSLzsnVWo9mR5SrdsjAZwyk8kObHNQUHDWZt5z_Xi8BpKZslneSjWyL75EPMwl84"/>
+<div class="absolute inset-0 bg-primary-container/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+<span class="font-label text-[0.65rem] text-secondary tracking-widest uppercase">Terroir</span>
+<h3 class="font-headline text-xl text-white">Misty Morning Harvest</h3>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="masonry-standard relative group overflow-hidden bg-surface-container-low cursor-pointer">
+<img alt="Wine glass" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close-up of a crystal wine glass being filled with deep ruby red wine, splash frozen in time with elegant lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-Ar5qIOTCXmzabX1c-Kw3592SDdGelyp2Hw4L3CNtsFtv8DnzRBenhopPmu-eKhK8yc5TLo33wDQMbZPkaISC_6XBQYLmxjJ-JI14Vh5Hio-cgkDfuGvGAnlwJGpxwmP_2QIisodykthrvr_Z0d4wVgvthV71bM4krOMb7jolNx-0aaL5_k_o7PksmmjgKpPMU9-4RVLOvjIYtIg55281sBp9Xqyc3zXyERWGekcMnZMeob3ANTduD8vLO-eaR2maW48gZpq_5fA"/>
+<div class="absolute inset-0 bg-primary-container/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+<span class="font-label text-[0.65rem] text-secondary tracking-widest uppercase">The Pour</span>
+<h3 class="font-headline text-xl text-white">Vertical Tasting</h3>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="masonry-standard relative group overflow-hidden bg-surface-container-low cursor-pointer">
+<img alt="Grapes" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Extreme macro of dark purple wine grapes still on the vine, covered in morning dew, sunlight hitting the skin." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdJ3yJnnfWPrOlskWx3bX4DnhhGa9boxyRcVDxYe5pcwOkq8NGvvCD88hpeP0Hcnu77xz04LqPG2X4Z9bD7t0vNUbNidhcOksl8QWzdCA1V6JpoohqU8kDkjrsIVccNESlRnZoJ-EahOjlhOyk2X-SN3fYmx14X09TtIQIDaDqeJ41fPdyv4T2cTRKWITEEfuiQOJyvTmpyI2maZgEctoeOxMJblWJBVQZGOOQJksJAGhBVv5fJj6dj-CBJ7fFYHdl3nKr6doUeoo"/>
+<div class="absolute inset-0 bg-primary-container/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<!-- Item 5: Tall -->
+<div class="masonry-tall relative group overflow-hidden bg-surface-container-low cursor-pointer">
+<img alt="Artisanal table" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Long rustic wooden table set for an outdoor feast in a vineyard, linen napkins, wild flowers, and artisanal cheeses." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNO0tiveE3bK1_c3hqfP2lnpF2jjcJE61fIVLW1sXes3NjmRezImWAVoHB-Eq2CKbo_1-DDmDLeDJeYVoMS4sZCgw37GoGi8sScopicwqy6aSNbUurIEy02MpAK7rxm5z_WSZNBzY8iatCaBY8qDx6CEGNKfsH3Zy7njSJOOltLKqTd1lu6cpg9SAAl9BLcIu8N3ZOY9jnl495GYMTPhXVMV59BNBNdLdrq2fgdOkIlv9af6cRxyZh-XwXGMUwOWgCSp8BGnTYcPg"/>
+<div class="absolute inset-0 bg-primary-container/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+<span class="font-label text-[0.65rem] text-secondary tracking-widest uppercase">Gastronomy</span>
+<h3 class="font-headline text-xl text-white">The Estate Table</h3>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="masonry-standard relative group overflow-hidden bg-surface-container-low cursor-pointer">
+<img alt="Winemaker" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Hands of a winemaker holding a handful of dark rich soil in the vineyard, weathered skin, dramatic focus on the earth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpuMoVqYJjYWfPm7DIukXoR85PoitJlV0H-o27muew3SQYpdSXh2OUSh8zma5cncwUAInfzgFMbtJx789s8YAHU-oQmeTd1_ZeWSqfCJZYkuPuDSkI44IU2hhPWeahKChmJAe3ShQwa5f70GbpK22Tg_AhudfiTtsAuebpnOrhb3rcpPIbC_7NL0-gnn1tKWdc2dP2wlllV4naM-ZTEl7JQ7ikGRDdHhDmGVYLKlTcesdZ22cfIufDwuM4wSVJdx8Pt_5EmD87oUQ"/>
+<div class="absolute inset-0 bg-primary-container/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+</div>
+</section>
+<!-- Tasting Experiences Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="px-8 md:px-16 max-w-screen-2xl mx-auto">
+<div class="text-center mb-20">
+<span class="font-label text-[0.75rem] tracking-[0.4em] uppercase text-secondary mb-4 block">Curated Encounters</span>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface">Private Experiences</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-outline-variant/10">
+<!-- Experience 1 -->
+<div class="group relative bg-surface p-12 md:p-20 overflow-hidden flex flex-col justify-end min-h-[600px]">
+<div class="absolute inset-0 z-0 opacity-40 group-hover:opacity-60 transition-opacity duration-700">
+<img alt="Tasting Room" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" data-alt="Elegant dark-themed modern tasting room with high ceilings, gold accents on the walls, and leather chairs." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMrE2NIcjNlyK8U8kTLpZWiN7ZSAnKB7E0r-NT_xSO9uE4HpSQkwdyy26Bo12_hpzXnSRaHrzQ2UD_EBJjBABzAEHnIyCRxS5Gnb2jf4oybpUP3401Rt27iFWFa0Yjeo8OrT8qaMm8MJQsYLQH0MXaFY5o7lYsC0ZsnQlnw1CQdn0pwFmqeNOxyy5M19qk5Duw1hx1eR9coxo941yacWBl4qix_gfY2Eajule51gaHOg83GudBs6FZJh2w49mqOc9COymQxPEgwnY"/>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent z-10"></div>
+<div class="relative z-20">
+<span class="font-label text-[0.75rem] tracking-widest text-secondary block mb-6">INTIMATE GATHERING</span>
+<h3 class="font-headline text-3xl text-on-surface mb-6">The Sommelier’s Archive</h3>
+<p class="text-on-surface-variant font-light leading-relaxed mb-10 max-w-sm">
+                            A private vertical tasting of our most rare vintages, led by the Head Winemaker in our subterranean vaults.
+                        </p>
+<div class="flex items-center gap-4">
+<button class="bg-primary-container text-on-primary-container px-8 py-3 text-[0.75rem] font-label tracking-widest uppercase transition-all duration-300 hover:bg-primary-container/80">Inquire Now</button>
+<span class="text-on-surface-variant font-label text-[0.75rem] tracking-widest">FROM $450</span>
+</div>
+</div>
+</div>
+<!-- Experience 2 -->
+<div class="group relative bg-surface p-12 md:p-20 overflow-hidden flex flex-col justify-end min-h-[600px]">
+<div class="absolute inset-0 z-0 opacity-40 group-hover:opacity-60 transition-opacity duration-700">
+<img alt="Vineyard Tour" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" data-alt="Lush green vineyard rows under a golden sky, looking through a stone archway of an old estate building." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpEAssRBLgPqhtj2qtlBEvp90aMoz0_PRjUBfu4QA8fLWkUbo7aXERmNa_YbsQ6SEdLGZYX7Cs6J6MGSVSQWpD_6mb8X3KAO4JRk3Ou4m1cwleGo6-42rXGDveWVG4WKq1B6rBcZktw0cswBTCl59F_-PoujoSotwWZQb8DdYRb6jh0RjB33CXkHIz1kuppCobNWnpMOau4NryR9ekEfpwW_ZRjKhWj9y6i-Z7hvHKtdzB-us1gEAzmwuHbggwL96syQN365OUnEM"/>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent z-10"></div>
+<div class="relative z-20">
+<span class="font-label text-[0.75rem] tracking-widest text-secondary block mb-6">OUTDOOR EXPLORATION</span>
+<h3 class="font-headline text-3xl text-on-surface mb-6">Vineyard Terroir Tour</h3>
+<p class="text-on-surface-variant font-light leading-relaxed mb-10 max-w-sm">
+                            Traverse our historic parcels in a restored vintage vehicle followed by an artisanal picnic overlooking the valley.
+                        </p>
+<div class="flex items-center gap-4">
+<button class="bg-primary-container text-on-primary-container px-8 py-3 text-[0.75rem] font-label tracking-widest uppercase transition-all duration-300 hover:bg-primary-container/80">Book Journey</button>
+<span class="text-on-surface-variant font-label text-[0.75rem] tracking-widest">FROM $280</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Parallax Brand Quote -->
+<section class="relative h-[614px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0 bg-fixed bg-center bg-cover" data-alt="Dreamy landscape of mountains and vines at dusk, deep purples and blues with a soft grain texture." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOTh4P4fJhjC98XRvy9ttVa9viJqTZadFzE6piavN4nIdGNNi6B0S7umJM4hrmULYic-Ov0dWOFnscmOiHdfxWFDP9szNRXmlJGmWFeb9b1p0THRClA99uzEvOBD_Png9I05N3wA7yIzXZueS0ltYC-EhUkjApfbLBNxoOflx1gXEvXY1r2FxsLDLlKxZsvJiLouDQ0qfK3kDkPle9d5WwBAwQqPf6ZbH8RiTbmOtV7tLLjnoQpDeCSGxkIEucVT621I_ZxXoNEf0');">
+<div class="absolute inset-0 bg-surface/80"></div>
+</div>
+<div class="relative z-10 text-center px-6 max-w-3xl">
+<h2 class="font-headline italic text-3xl md:text-5xl text-primary leading-snug">"Wine is the only artwork you can drink, the sensory bridge between the soil and the soul."</h2>
+<p class="font-label text-[0.75rem] tracking-[0.5em] uppercase text-secondary mt-8">— JEAN-PIERRE PEREEN</p>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-low dark:bg-surface-container-low w-full pt-20 pb-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 md:px-16 w-full max-w-screen-2xl mx-auto">
+<div class="md:col-span-1">
+<div class="text-3xl font-headline text-secondary mb-4">MAISON PEREEN</div>
+<p class="text-on-surface-variant text-sm leading-relaxed pr-8">
+                    Crafting excellence since 1892. Our estate in the heart of Bordeaux represents a commitment to the land and the luxury of time.
+                </p>
+</div>
+<div>
+<h4 class="font-label text-[0.75rem] tracking-widest uppercase text-on-surface font-bold mb-6">Explore</h4>
+<ul class="space-y-4">
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-label text-[0.75rem] tracking-widest uppercase" href="#">The Estate</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-label text-[0.75rem] tracking-widest uppercase" href="#">Collections</a></li>
+<li><a class="text-secondary font-bold font-label text-[0.75rem] tracking-widest uppercase" href="#">Experiences</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-label text-[0.75rem] tracking-widest uppercase" href="#">Journal</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-[0.75rem] tracking-widest uppercase text-on-surface font-bold mb-6">Legal</h4>
+<ul class="space-y-4">
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-label text-[0.75rem] tracking-widest uppercase" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-label text-[0.75rem] tracking-widest uppercase" href="#">Terms of Service</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-label text-[0.75rem] tracking-widest uppercase" href="#">Shipping &amp; Returns</a></li>
+<li><a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-label text-[0.75rem] tracking-widest uppercase" href="#">Wholesale</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-[0.75rem] tracking-widest uppercase text-on-surface font-bold mb-6">Newsletter</h4>
+<p class="text-on-surface-variant text-[0.75rem] tracking-widest uppercase mb-4">Join the vintage registry.</p>
+<form class="flex gap-2">
+<input class="bg-transparent border-b border-outline-variant focus:border-secondary focus:ring-0 text-[0.75rem] tracking-widest uppercase w-full py-2" placeholder="EMAIL ADDRESS" type="email"/>
+<button class="text-secondary opacity-80 hover:opacity-100 transition-opacity" type="submit">
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</form>
+</div>
+</div>
+<div class="mt-20 px-8 md:px-16 flex flex-col md:flex-row justify-between items-center gap-6 border-t border-outline-variant/10 pt-10">
+<p class="font-label text-[0.7rem] tracking-widest uppercase text-on-surface-variant">© 2024 MAISON PEREEN. EXCELLENCE IN EVERY DROP.</p>
+<div class="flex gap-6">
+<a class="text-on-surface-variant hover:text-secondary" href="#"><span class="material-symbols-outlined text-lg" data-icon="facebook">social_leaderboard</span></a>
+<a class="text-on-surface-variant hover:text-secondary" href="#"><span class="material-symbols-outlined text-lg" data-icon="instagram">retweet</span></a>
+</div>
+</div>
+</footer>
+</body></html>
